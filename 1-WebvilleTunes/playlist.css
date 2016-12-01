@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+form,ul {
+  margin: auto;
+  width: 420px;
+  margin-top: 20px;
+}
+form>* {
+  display: inline-block;
+  height: 36px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+input[type="text"] {
+  padding-left: 5px;
+}
+input[type="button"] {
+  padding: 0 5px;
+  background-color: #eee;
+}
+ul li {
+  list-style: none;
+  height: 36px;
+  line-height: 36px;
+  padding-left: 5px;
+  background-color: #eee;
+  border: 1px dashed #999;
+  border-radius: 5px;
+}
+span {
+  text-decoration: underline;
+  color: #334433;
+  margin-left: 10px;
+  cursor: pointer;
+  float: right;
+}
